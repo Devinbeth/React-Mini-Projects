@@ -20,7 +20,7 @@ When the user clicks the button in the child component it will update the parent
 ### Step 4
 Modify the child component so that when it updates the parent component's state the other components will have its title state update also.
 
-## Whose that pokemon!!!
+## Who's that pokemon!!!
 
 <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/pokemon.jpg" />
 
