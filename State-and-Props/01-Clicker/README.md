@@ -6,7 +6,7 @@ we will be using setState to modify the state of a component and eventually crea
 The end project will look a little something like this.
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-1.jpg" width="200" height="400">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-1.jpg" width="350" height="425">
 </p>
 
 ## Phase Zero
@@ -21,7 +21,7 @@ This will give you a blank slate to create your react project.
 #### Connecting a button to JavaScript
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg" width="350" height="425">
 </p>
 
 The green box in the image above represents the App component. For this step we will not need to make any children components.
@@ -41,7 +41,7 @@ Using the `onClick` event listener run a function that will console log a messag
 #### Updating State
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg" width="350" height="425">
 </p>
 
 In this step we will be adding state to our App component that will track how many times we have pressed the button.
@@ -60,7 +60,7 @@ If everything is working you should see the number on the screen increment every
 ## Phase Three
 #### Making Another Button
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-3.jpg">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-3.jpg" width="350" height="425">
 </p>
 
 In this phase you will create a second button that will decrement the number by one.
@@ -74,7 +74,7 @@ You could create a separate function to handle the subtraction but the function 
 #### Making More Buttons
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-4.jpg">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-4.jpg" width="350" height="425">
 </p>
 
 Similar to phase four but we will add two buttons that will increment by 5 and decrement by 5. Your code will be most effective if you dont need to make additional functions for each button but instead run the same function but pass it different values.
@@ -83,7 +83,7 @@ Similar to phase four but we will add two buttons that will increment by 5 and d
 #### Buttons to Components
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-5.jpg">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-5.jpg" width="350" height="425">
 </p>
 
 In this step we will convert our buttons to components. To do this you will need to make a new file and set up the basics for creating and exporting and import. Make sure you import both React and Component.
