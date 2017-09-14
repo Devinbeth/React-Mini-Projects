@@ -6,7 +6,7 @@ we will be using setState to modify the state of a component and eventually crea
 The end project will look a little something like this.
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-1.jpg">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-1.jpg" width="200" height="400">
 </p>
 
 ## Phase Zero
