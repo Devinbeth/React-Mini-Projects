@@ -6,16 +6,16 @@ we will be using setState to modify the state of a component and eventually crea
 The end project will look a little something like this.
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-1.jpg" width="350" height="425">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-5.jpg" width="350" height="425">
 </p>
 
-## Phase Zero
-#### Starting your project
-While inside of this folder run the following command into your terminal to create the project.
+## Starting Point
+#### Creating the React App
+With your terminal opened inside of this folder, `01-Clicker` run the following command into your terminal to create the project.
 
 `create-react-app clicker-app`
 
-This will give you a blank slate to create your react project.
+This will give you a blank slate to create your react project. You will want to start in the `App.js` file.
 
 ## Phase One
 #### Connecting a button to JavaScript
@@ -55,7 +55,7 @@ Change the logic of your function that console logged when the button clicked. W
 If everything is working you should see the number on the screen increment every time you click the button.
 
 #### Phrases to Google for help
-- React this.setState example
+- React setState example
 
 ## Phase Three
 #### Making Another Button
