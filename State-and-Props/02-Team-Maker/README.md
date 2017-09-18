@@ -5,7 +5,7 @@ This app aims to improve your skills in using a .map loop to create JSX elements
 The end result will hopefully look some thing like this
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-7.jpg" width="375" height="420">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/Team-Maker.jpg" width="375" height="400">
 </p>
 
 
@@ -62,7 +62,7 @@ You may also want to make it so when the user clicks the save button it clears t
 
 
 ## Phase Three
-#### Only Title only when Button is pressed
+#### Using .map to show a list of items in JSX
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-3.jpg" width="375" height="420">
@@ -107,5 +107,5 @@ You will want to use props to set your initial state so that each component will
 #### 
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-4.jpg" width="375" height="420">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-5.jpg" width="375" height="420">
 </p>
