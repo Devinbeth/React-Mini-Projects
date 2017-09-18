@@ -4,5 +4,5 @@
 
 <p float="left">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/Clicker.jpg" width="220" height="267">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/Team-Maker.jpg" width="239" height="267">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/Team-Maker.jpg" width="239" height="267">
 </p>

@@ -114,11 +114,11 @@ Lets duplicate our code so that we can create and manage two teams at the same t
 
 You will also need to create a new team member box and button, as well as team name box and button and set them to update the new values on state.
 
-## Phase Five
+## Phase Six
 #### Migrating all info into the component
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-5.jpg" width="375" height="420">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-6.jpg" width="375" height="420">
 </p>
 
 You may have realized already but having our app manage the state for the two teams is not the most effective way. It would be better if the component had the input boxes inside of the component itself. This would make it so we could add a whole new team without having to keep making info on our App.js
