@@ -104,8 +104,25 @@ You will want to use props to set your initial state so that each component will
 - Theme Changer
 
 ## Phase Five
-#### 
+#### Using the same component to display two teams
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-5.jpg" width="375" height="420">
 </p>
+
+Lets duplicate our code so that we can create and manage two teams at the same time. You will need to add another team on your App.js' state and another spot to hold a team name. Create another instance of your team list component and pass it the the values for the new team and team name. 
+
+You will also need to create a new team member box and button, as well as team name box and button and set them to update the new values on state.
+
+## Phase Five
+#### Migrating all info into the component
+
+<p align="center">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-5.jpg" width="375" height="420">
+</p>
+
+You may have realized already but having our app manage the state for the two teams is not the most effective way. It would be better if the component had the input boxes inside of the component itself. This would make it so we could add a whole new team without having to keep making info on our App.js
+
+In this step move the team member and team name input's into the component and have it change the components state instead of using props and `componentWillReceiveProps`.
+
+If you moved the input fields to the component correctly you should be able to create copy the component as many times as you want and each component will be able to keep track of its own state.
