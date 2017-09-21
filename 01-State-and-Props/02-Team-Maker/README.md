@@ -2,7 +2,7 @@
 
 This app aims to improve your skills in using a .map loop to create JSX elements and using setState to add members to an array on state. Eventually we will move our code into component to clean up our code and make it more maintainable.
 
-The end result will hopefully look some thing like this
+The end result will hopefully look something like this.
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/Team-Maker.jpg" width="375" height="400">
@@ -10,7 +10,7 @@ The end result will hopefully look some thing like this
 
 
 ## Starting Point
-#### Creating the React App
+### Creating the React App
 
 With your terminal opened inside of this folder, `02-Team-Maker` run the following command into your terminal to create the project.
 
@@ -19,7 +19,7 @@ With your terminal opened inside of this folder, `02-Team-Maker` run the followi
 This will give you a blank slate to create your react project. You will want to start in the `App.js` file.
 
 ## Phase One
-#### Using an Input to Change State
+### Using an Input to Change State
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-1.jpg" width="375" height="420">
@@ -41,7 +41,7 @@ If everything is working correctly when you type in input field it should live u
 - Toy Problem Showcase
 
 ## Phase Two
-#### Update Title Only when Button is pressed
+### Update Title Only when Button is pressed
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-2.jpg" width="375" height="420">
@@ -62,7 +62,7 @@ You may also want to make it so when the user clicks the save button it clears t
 
 
 ## Phase Three
-#### Using .map to show a list of items in JSX
+### Using .map to show a list of items in JSX
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-3.jpg" width="375" height="420">
@@ -72,18 +72,19 @@ Change the title on the top of the app so that it is static and not reflecting w
 
 You you will need to create a new input field and button to handle adding team members to our team list. This also means you will need a place to keep track of this info. On state create an array to hold the members of our team. when the user clicks the save Team Member button it will add their name to the array of team members as a string.
 
-Using array.map inside of the render method, but outside of the return, loop through the team members array and make a JSX tag for each member of the array. Put the variable you made to store each team member down in your return.
+Using array.map inside of the render method, but outside of the return,loop through the team members array and make a JSX tag for each member of the array. Put the variable you made to store the array of JSX down in your return.
 
-#### Phrases to Google for help
+### Phrases to Google for help
 - React map array
 - React setState array example onClick
 
-#### Projects with example Code
+### Projects with example Code
 - Employee Manager (Employee List Component)
 
 
 ## Phase Four
-#### Creating a component and passing props
+
+### Creating a component and passing props
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-4.jpg" width="375" height="420">
@@ -104,7 +105,8 @@ You will want to use props to set your initial state so that each component will
 - Theme Changer
 
 ## Phase Five
-#### Using the same component to display two teams
+
+### Using the same component to display two teams
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-5.jpg" width="375" height="420">
@@ -114,8 +116,17 @@ Lets duplicate our code so that we can create and manage two teams at the same t
 
 You will also need to create a new team member box and button, as well as team name box and button and set them to update the new values on state.
 
+#### Phrases to Google for help
+- React pass props to child
+- React creating a component
+- React componentWillReceiveProps
+
+#### Projects with example Code
+- Theme Changer
+
 ## Phase Six
-#### Migrating all info into the component
+
+### Migrating all info into a component
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/phase-6.jpg" width="375" height="420">
@@ -126,3 +137,4 @@ You may have realized already but having our app manage the state for the two te
 In this step move the team member and team name input's into the component and have it change the components state instead of using props and `componentWillReceiveProps`.
 
 If you moved the input fields to the component correctly you should be able to create copy the component as many times as you want and each component will be able to keep track of its own state.
+
