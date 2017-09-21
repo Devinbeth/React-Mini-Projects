@@ -10,7 +10,9 @@ The end project will look a little something like this.
 </p>
 
 ## Starting Point
-#### Creating the React App
+
+### Creating the React App
+
 With your terminal opened inside of this folder, `01-Clicker` run the following command into your terminal to create the project.
 
 `create-react-app clicker-app`
@@ -18,7 +20,8 @@ With your terminal opened inside of this folder, `01-Clicker` run the following 
 This will give you a blank slate to create your react project. You will want to start in the `App.js` file.
 
 ## Phase One
-#### Connecting a button to JavaScript
+
+### Connecting a button to JavaScript
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg" width="350" height="425">
@@ -38,7 +41,8 @@ Using the `onClick` event listener run a function that will console log a messag
 
 
 ## Phase Two
-#### Updating State
+
+### Updating State
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg" width="350" height="425">
@@ -58,7 +62,8 @@ If everything is working you should see the number on the screen increment every
 - React setState example
 
 ## Phase Three
-#### Making Another Button
+
+### Making Another Button
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-3.jpg" width="350" height="425">
 </p>
@@ -71,7 +76,8 @@ You could create a separate function to handle the subtraction but the function 
 - Calculator
 
 ## Phase Four
-#### Making More Buttons
+
+### Making More Buttons
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-4.jpg" width="350" height="425">
@@ -80,7 +86,8 @@ You could create a separate function to handle the subtraction but the function 
 Similar to phase four but we will add two buttons that will increment by 5 and decrement by 5. Your code will be most effective if you dont need to make additional functions for each button but instead run the same function but pass it different values.
 
 ## Phase Five
-#### Buttons to Components
+
+### Buttons to Components
 
 <p align="center">
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-5.jpg" width="350" height="425">
