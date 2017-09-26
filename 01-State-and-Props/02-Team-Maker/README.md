@@ -8,6 +8,8 @@ The end result will hopefully look something like this.
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Team Maker/Team-Maker.jpg" width="375" height="400">
 </p>
 
+## Image Explanation
+In the images below the green box represents the `App.js` component and any white boxes represent div's or other html tags. Blue boxes represent Child components
 
 ## Starting Point
 ### Creating the React App

@@ -9,6 +9,9 @@ The end project will look a little something like this.
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/Clicker.jpg" width="350" height="425">
 </p>
 
+## Image Explanation
+In the images below the green box represents the `App.js` component and any white boxes represent div's or other html tags. Blue boxes represent Child components
+
 ## Starting Point
 
 ### Creating the React App
@@ -24,7 +27,7 @@ This will give you a blank slate to create your react project. You will want to 
 ### Connecting a button to JavaScript
 
 <p align="center">
-  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg" width="350" height="425">
+  <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-1.jpg" width="350" height="425">
 </p>
 
 The green box in the image above represents the App component. For this step we will not need to make any children components.
