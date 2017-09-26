@@ -29,7 +29,7 @@ This will give you a blank slate to create your react project. You will want to 
 
 The green box in the image above represents the App component. For this step we will not need to make any children components.
 
-Using the `onClick` event listener run a function that will console log a message. This will help us establish that our button is working so we can move onto tracking how many times it has been clicked.
+Write a method(AKA function) on your class that will console log a message to the browsers terminal when ran. Using the `onClick` event handler run the method you made. You will need to use an `arrow function` on the `onClick` to get this to work. Once you get this working and you can see the console log in the inspect window of your browser we can move onto tracking how many times it has been clicked.
 
 #### Phrases to Google for help
 - React onClick
@@ -48,7 +48,7 @@ Using the `onClick` event listener run a function that will console log a messag
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-2.jpg" width="350" height="425">
 </p>
 
-In this step we will be adding state to our App component that will track how many times we have pressed the button.
+In this step we will be adding state to our App component that will allow us to track how many times we have pressed the button.
 
 Create a constructor function inside the class component and create a value called `this.state`. `this.state` is an object and should have one property on it called `count`, and be default it should be set to 0.
 
@@ -70,7 +70,7 @@ If everything is working you should see the number on the screen increment every
 
 In this phase you will create a second button that will decrement the number by one.
 
-You could create a separate function to handle the subtraction but the function would be a lot more useful if it took in a parameter and it would modify our state's number buy the amount passed in. That would save us having to write multiple functions.
+You could create a separate function to handle the subtraction, but our code would be easier to maintain if it took in a parameter (being the number to either add or subtract from the total) and it would modify our state's number by the amount passed in. Doing it this way would save us from having to write multiple functions.
 
 #### Projects with example Code
 - Calculator
@@ -93,6 +93,16 @@ Similar to phase four but we will add two buttons that will increment by 5 and d
   <img src="https://github.com/Rasbandit/React-Drills/blob/master/images/Clicker/phase-5.jpg" width="350" height="425">
 </p>
 
-In this step we will convert our buttons to components. To do this you will need to make a new file and set up the basics for creating and exporting and import. Make sure you import both React and Component.
+In this step we will create a button component that will take the place of our individual buttons. You will only need to create one new component but we will use the same component 4 times and pass each one a different prop, being a number. This number will be how much the total will increment by and the number to be displayed on the button. By converting our button into a component it makes it easier to make changes to all the buttons at once and easier to create more buttons if needs be.
 
-When you implement the components to your JSX you will only need to pass two props; the increment function (make sure you bind this function inside of the constructor), and the number to increment/decrement by.
+You will need to give each component two props, the function (make sure you bind this function inside of the constructor) and the value to increment/decrement by. Inside of your component you can access the props by using `this.props` If you are unsure what `this.props` is, you can always console.log it inside your render method, but outside of the return.
+
+This component will not need its own state, meaning it will not need a constructor function.
+
+#### Projects with example Code
+- Theme Changer
+
+#### Phrases to Google
+- React passing props
+- React accessing props
+- React biding functions
